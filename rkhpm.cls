@@ -17,6 +17,7 @@
 \usepackage[absolute]{textpos}  % Used for textblock
 \usepackage{setspace}           % For 1.5 line spacing
 \usepackage[swedish]{isodate}   % To format date strings
+\usepackage{sectsty}            % To change section headings etc
 
 \usepackage[pdftex,
     bookmarks,
@@ -55,6 +56,12 @@
 %
 % Use ``one and a half'' line spacing document-wide
 \onehalfspacing
+
+% Section headers should be uppercase and 14 pt 
+\sectionfont{\Large}
+
+% Subsection headers should be 12 pt bold.
+\subsectionfont{\large\textbf}
 
 % Title page layout
 %%%%%%%%%%%%%%%%%%%
