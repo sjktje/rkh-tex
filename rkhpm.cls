@@ -58,10 +58,10 @@
 \onehalfspacing
 
 % Section headers should be uppercase and 14 pt 
-\sectionfont{\Large}
+\sectionfont{\Large\normalfont\textbf}
 
 % Subsection headers should be 12 pt bold.
-\subsectionfont{\large\textbf}
+\subsectionfont{\large\normalfont\textbf}
 
 % Title page layout
 %%%%%%%%%%%%%%%%%%%
