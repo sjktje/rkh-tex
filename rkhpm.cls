@@ -11,7 +11,7 @@
 \usepackage{amssymb}            % Symbols
 \usepackage{amsmath}            % More symbols
 \usepackage[swedish]{babel}     % Swedish hyphenation
-\usepackage{times}              % Using the Times font is required 
+\usepackage{txfonts}            % Using the Times font is required 
 \usepackage[utf8]{inputenc}     % For åäö
 \usepackage{apacite}            % Print references according to APA
 \usepackage[absolute]{textpos}  % Used for textblock
