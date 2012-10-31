@@ -73,12 +73,16 @@
 
         \vspace{3cm}
         \begin{center}
-            \Large \@title \par % Ska vara 18 pt
-            \Large \@subtitle \par % Ska vara 14 pt, om alls.
+            % According to http://wiki.lyx.org/FAQ/ChangeFontUsingLatex,
+            % \LARGE is really 17.28 pt (not 18), and \Large is 14.40 pt (not
+            % 14). So we are not totally conforming to university guidelines,
+            % but question is if anyone will notice?
+            {\LARGE \@title \par}           % Uni requires 18 pt
+            {\Large \@subtitle \par}        % Uni requires 14 pt
         \end{center}\par
 
         \begin{center}
-            Projektplan \\ % Också 14 pt
+            {\Large Projektplan } \\        % Uni requires 14 pt
             Version Datum \@date
         \end{center}
 
