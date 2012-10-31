@@ -16,6 +16,7 @@
 \usepackage{apacite}            % Print references according to APA
 \usepackage[absolute]{textpos}  % Used for textblock
 \usepackage{setspace}           % For 1.5 line spacing
+\usepackage[swedish]{isodate}   % To format date strings
 
 \usepackage[pdftex,
     bookmarks,
@@ -83,7 +84,7 @@
 
         \begin{center}
             {\Large Projektplan } \\        % Uni requires 14 pt
-            Version Datum \@date
+            Version \isodate\today
         \end{center}
 
         \begin{center}
