@@ -3,7 +3,7 @@
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
 \ProvidesClass{rkhpm}[2012/10/30 RKH PM class]
 
-\DeclareOption*{\PassOptionsToClass{\CurrentOption}{scrrprt}}
+\DeclareOption*{\PassOptionsToClass{\CurrentOption}{scrreprt}}
 \ProcessOptions\relax
 \LoadClass[a4paper, 12pt, twoside, halfparskip]{scrreprt}
 
